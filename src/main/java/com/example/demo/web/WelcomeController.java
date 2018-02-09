@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.demo;
+package com.example.demo.web;
 
+import com.example.demo.domain.Project;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -49,5 +50,4 @@ public class WelcomeController {
 		model.put("list", list);
 		return "index";
 	}
-
 }
